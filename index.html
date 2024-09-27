@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="/js/script.js" defer></script>
+    <title>Document</title>
+</head>
+<main>
+
+    <body>
+        <h1>OPERAÇÃO ARITMÉTICA</h1>
+        <input type="number" name="nun1" id="nun1" placeholder="Digite o primeiro número:">
+        <input type="number" name="nun2" id="nun2" placeholder="Digite o segundo número:">
+        <label for="operacc">Escolha uma Operação:</label>
+        <select name="ope" id="ope">
+            <option value="adicao">+</option>
+            <option value="subtracao">-</option>
+            <option value="multiplica">*</option>
+            <option value="divisao">/</option>
+        </select>
+        <button onclick="opera()">Calcular</button>
+        <p id="resposta"></p>
+
+        <h1>AUMENTO DE SALÁRIO</h1>
+        <input type="number" name="slr" id="slr" placeholder="Digite seu salario bruto:">
+        <label for="cargo">Escolha uma Operação:</label>
+        <select name="crg" id="crg">
+            <option value="junior">Junior</option>
+            <option value="pleno">Pleno</option>
+            <option value="senior">Sênior</option>
+        </select>
+        <button onclick="cargo()">Veja sua felicidade</button>
+        <p id="respsalario"></p>
+    </body>
+</main>
