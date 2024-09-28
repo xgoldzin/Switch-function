@@ -37,3 +37,15 @@ function cargo(){
     }
     document.getElementById("respsalario").innerText = `Seu novo salário é R$${salarioF},00`
 }
+
+function conta(){
+    let pd1= document.getElementById("nun1").value
+    let pd2 = document.getElementById("nun2").value
+    let pd3 = document.getElementById("nun3").value
+    let pd4 = document.getElementById("nun4").value
+    let pd5 = document.getElementById("nun5").value
+    let pd6 = document.getElementById("nun6").value
+    let pd7 = document.getElementById("nun7").value
+    const somaConta = pd1 + pd2 + pd3 + pd4 + pd5 + pd6 + pd7
+    document.getElementById("respostaConta").innerText = somaConta
+}
